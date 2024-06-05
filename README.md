@@ -130,7 +130,4 @@ Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICE
 
 ---
 
-Espero que este projeto sirva como uma boa base para seus estudos e ajude você e seus colegas a entender melhor o desenvolvimento de APIs RESTful com Spring Boot. Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para abrir uma issue ou um pull request.
-```
 
-Você pode criar um arquivo chamado `README.md` no seu repositório e colar o conteúdo acima nele. Isso fornecerá uma documentação clara e organizada para você e seus colegas.
