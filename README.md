@@ -1,4 +1,6 @@
+Claro! Aqui está o conteúdo completo em Markdown:
 
+```markdown
 # Pessoa API
 
 Este projeto é uma API RESTful desenvolvida em Java com o framework Spring Boot. O objetivo é servir como base de estudo para Java Web, Spring Boot e construção de APIs RESTful.
@@ -65,3 +67,72 @@ Para executar a aplicação, utilize o comando:
 
 ```bash
 mvn spring-boot:run
+```
+
+A API estará disponível em `http://localhost:8080`.
+
+## Endpoints da API
+
+### Criar uma nova pessoa
+
+- **URL:** `/pessoas`
+- **Método:** `POST`
+- **Corpo da Requisição:**
+  ```json
+  {
+    "name": "Thiago",
+    "age": 41,
+    "weight": 65,
+    "height": 1.75
+  }
+  ```
+
+### Obter todas as pessoas
+
+- **URL:** `/pessoas`
+- **Método:** `GET`
+
+### Obter uma pessoa pelo ID
+
+- **URL:** `/pessoas/{id}`
+- **Método:** `GET`
+
+### Atualizar uma pessoa pelo ID
+
+- **URL:** `/pessoas/{id}`
+- **Método:** `PUT`
+- **Corpo da Requisição:**
+  ```json
+  {
+    "name": "Thiago Atualizado",
+    "age": 42,
+    "weight": 70,
+    "height": 1.75
+  }
+  ```
+
+### Deletar uma pessoa pelo ID
+
+- **URL:** `/pessoas/{id}`
+- **Método:** `DELETE`
+
+## Contribuindo
+
+Se você deseja contribuir com este projeto, por favor, siga os passos abaixo:
+
+1. Faça um fork do projeto.
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`).
+3. Comite suas alterações (`git commit -am 'Adiciona nova feature'`).
+4. Faça o push para a branch (`git push origin feature/nova-feature`).
+5. Abra um Pull Request.
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+Espero que este projeto sirva como uma boa base para seus estudos e ajude você e seus colegas a entender melhor o desenvolvimento de APIs RESTful com Spring Boot. Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para abrir uma issue ou um pull request.
+```
+
+Você pode criar um arquivo chamado `README.md` no seu repositório e colar o conteúdo acima nele. Isso fornecerá uma documentação clara e organizada para você e seus colegas.
