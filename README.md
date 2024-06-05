@@ -16,7 +16,6 @@ Este projeto é uma API RESTful desenvolvida em Java com o framework Spring Boot
   - [Atualizar uma pessoa pelo ID](#atualizar-uma-pessoa-pelo-id)
   - [Deletar uma pessoa pelo ID](#deletar-uma-pessoa-pelo-id)
 - [Contribuindo](#contribuindo)
-- [Licença](#licença)
 
 ## Introdução
 
@@ -124,9 +123,6 @@ Se você deseja contribuir com este projeto, por favor, siga os passos abaixo:
 4. Faça o push para a branch (`git push origin feature/nova-feature`).
 5. Abra um Pull Request.
 
-## Licença
-
-Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
