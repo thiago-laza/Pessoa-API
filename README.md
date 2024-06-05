@@ -1,6 +1,4 @@
-Claro! Aqui está o conteúdo completo em Markdown:
 
-```markdown
 # Pessoa API
 
 Este projeto é uma API RESTful desenvolvida em Java com o framework Spring Boot. O objetivo é servir como base de estudo para Java Web, Spring Boot e construção de APIs RESTful.
